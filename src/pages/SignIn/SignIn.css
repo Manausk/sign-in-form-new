@@ -1,0 +1,148 @@
+.signIn {
+  min-height: 100vh;
+  min-width: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading h1 {
+  font-weight: 700;
+  font-size: 30px;
+}
+.heading p {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.form {
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+}
+
+form {
+  margin: 50px 50px;
+}
+
+.InputField {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.InputField label {
+  display: flex;
+  margin-bottom: 5px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.InputField input {
+  border: 1px solid #2f2c2c;
+  border-radius: 7px;
+  display: block;
+  font-family: inherit;
+  font-size: 14px;
+  padding: 10px;
+  width: 95%;
+}
+
+form p {
+  text-align: left;
+  color: #b9b5f5;
+}
+.butnfield {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.butnfield button {
+  flex-basis: 100%;
+  background: #b9b5f5;
+  color: #000000;
+  height: 40px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+  font-weight: bold;
+}
+
+.another {
+  display: flex;
+  align-items: center;
+  color: #7f7a7a;
+  margin: 35px 0px;
+}
+
+.another .line {
+  height: 1px;
+  flex: 1;
+  background-color: #757575;
+}
+
+.another p {
+  padding: 0 2rem;
+  color: #757575;
+}
+
+.butnfield2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.butnfield2 button {
+  flex-basis: 30%;
+  background: #b9b5f5;
+  color: #000000;
+  height: 40px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  transition: background 1s;
+}
+form .content {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 18px auto;
+}
+form .content .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: sp;
+  border-radius: 1px;
+  color: #b9b5f5;
+}
+form .content input {
+  width: 15px;
+  height: 15px;
+  color: #b9b5f5;
+}
+form .content label {
+  color: #757575;
+  user-select: none;
+  padding-left: 5px;
+}
+form .content .pass-link {
+  color: "";
+  text-decoration: none;
+  color: #b9b5f5;
+}

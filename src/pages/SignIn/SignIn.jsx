@@ -12,33 +12,33 @@ const SignIn = () => {
       </div>
       <div className="form">
         <form>
-          <div class="InputGroup">
-            <div class="InputField">
+          <div className="InputGroup">
+            <div className="InputField">
               <label for="username">Email address</label>
               <input type="email" placeholder="" />
             </div>
-            <div class="InputField">
+            <div className="InputField">
               <label for="username">Password</label>
               <input type="password" placeholder="" />
             </div>
 
-            <div class="content">
-              <div class="checkbox">
+            <div className="content">
+              <div className="checkbox">
                 <input type="checkbox" id="remember-me" />
                 <label for="remember-me">Remember me</label>
               </div>
-              <div class="pass-link">Forgot password?</div>
+              <div className="pass-link">Forgot password?</div>
             </div>
           </div>
-          <div class="butnfield">
+          <div className="butnfield">
             <button type="button">Sign In</button>
           </div>
-          <div class="another">
-            <div class="line"></div>
+          <div className="another">
+            <div className="line"></div>
             <p>Or continue with</p>
-            <div class="line"></div>
+            <div className="line"></div>
           </div>
-          <div class="butnfield2">
+          <div className="butnfield2">
             <button type="button">
               <FaFacebookF />
             </button>

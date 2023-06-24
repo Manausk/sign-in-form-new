@@ -4,111 +4,57 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
-.verification p {
-  font-size: 100px;
+.container h1 {
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.Vrapper {
+  width: 35%;
+  height: 50%;
+  background-color: #fff;
+  padding: 20px 30px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Vrapper h1 {
+  margin-bottom: 15px;
 }
 
-.formbox {
-  width: 30%;
-  background: #fff;
-  padding: 20px 50px 30px;
-  text-align: center;
+form {
+  display: flex;
+  width: 80%;
+  gap: 5px;
+}
+
+form input {
+  width: 100%;
+  height: 150%;
+  padding: 7px 7px;
+}
+
+.Vrapper button {
+  height: 15%;
+  width: 80%;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #b9b5f5;
   border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
 }
 
-.para {
-  font-size: 14px;
-  color: rgb(133, 127, 127);
-  margin-bottom: 2.1rem;
+.Vrapper h4 {
+  margin-top: 10px;
 }
 
-.InputField label {
-  display: flex;
-  margin-bottom: 5px;
-  text-align: left;
-  font-weight: bold;
-}
-
-.InputField input {
-  border: 1px solid #2f2c2c;
-  border-radius: 7px;
-  display: block;
-  font-family: inherit;
-  font-size: 14px;
-  padding: 10px;
-  width: 95%;
-}
-.butnfield {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.butnfield button {
-  flex-basis: 100%;
-  background: #b9b5f5;
-  color: #000000;
-  height: 40px;
-  border-radius: 10px;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  transition: background 1s;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-.butnfield {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.butnfield input {
-  flex-basis: 23%;
-  width: 100%;
-  background: #ffffff;
-  color: #a6a3a3;
-  height: 40px;
-  border-radius: 5px;
-  border: 1px solid #cfc5df;
-  outline: 0;
-  cursor: pointer;
-  transition: background 1s;
-  text-align: center;
-  display: flex;
-}
-.butnfield2 {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.butnfield2 button {
-  flex-basis: 100%;
-  background: #b9b5f5;
-  color: #000000;
-  height: 40px;
-  border-radius: 8px;
-  border: 0;
-  outline: 0;
-  cursor: pointer;
-  transition: background 1s;
-  font-weight: bold;
-  margin-top: 2rem;
-}
-.para {
-  font-size: 27px;
-  color: rgb(0, 0, 0);
-  margin-top: 4.3rem;
-  font-weight: bold;
-  margin-bottom: 1.1rem;
-}
-.another2 {
-  text-align: center;
-  color: #000000;
-  font-size: 0.875em;
-  font-weight: bold;
-  margin-top: 15px;
-}
-.another2 a {
+.Vrapper h4 a {
   color: #b9b5f5;
+  cursor: pointer;
 }

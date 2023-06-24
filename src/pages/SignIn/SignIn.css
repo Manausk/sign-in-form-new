@@ -1,13 +1,120 @@
-.signIn {
+.SignIn {
   min-height: 100vh;
-  min-width: 60vh;
+  min-width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.heading {
+form {
+  height: 80%;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignIn .SignWrapper {
+  height: 100%;
+  width: 35%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  margin-top: 50px;
+}
+
+.SignIn h1 {
+  margin-bottom: 10px;
+}
+
+.SignIn .SignBtn {
+  margin-top: 15px;
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  border: none;
+  background-color: #b9b5f5;
+  font-weight: 600;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.SignWrapper .label {
+  width: 100%;
+  /* width: 50px; */
+  /* background-color: rgb(81, 173, 81); */
+}
+.SignWrapper .input {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 10px;
+  /* background-color: rgb(167, 193, 64); */
+}
+
+.SignWrapper .breakLine {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* background-color: rgb(49, 115, 115); */
+}
+.SignWrapper .breakLine .checkBox {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  /* background-color: antiquewhite; */
+}
+
+.SignWrapper .breakLine a {
+  cursor: pointer;
+  color: #b9b5f5;
+}
+.SignWrapper .breakLine .checkBox input {
+  color: #b9b5f5;
+  width: 15px;
+  height: 15px;
+}
+
+.Continue {
+  display: flex;
+  align-items: center;
+  margin: 25px 0px;
+}
+
+.Continue .line {
+  height: 1px;
+  flex: 1;
+  background-color: #c0c0c0;
+}
+
+.Continue p {
+  padding: 0 2rem;
+  color: #000000;
+}
+
+.btns {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  height: 100%;
+  margin-top: 0;
+}
+
+.btns button {
+  flex: 1;
+  height: 100%;
+  border: none;
+  background-color: #b9b5f5;
+  height: 45px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+/* .heading {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,4 +252,5 @@ form .content .pass-link {
   color: "";
   text-decoration: none;
   color: #b9b5f5;
-}
+  cursor: pointer;
+} */
